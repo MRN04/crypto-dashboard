@@ -14,7 +14,7 @@ export default function LoginForm() {
       router.push("/home");
     }
   }, [isConnected, router]);
-  
+
   return (
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 p-4">
       <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxnIGZpbGw9IiNmZmZmZmYiIGZpbGwtb3BhY2l0eT0iMC4wMiI+PHBhdGggZD0iTTM2IDM0djItaDJWMzR6bTAtNGgtMnYyaDJ6bTAtNGgtMnYyaDJ6bTAtNGgtMnYyaDJ6bTAtNGgtMnYyaDJ6bTItNHYyaC0ydi0yaC0ydjJoLTJ2MmgydjJoMnYtMmgydi0yaC0ydi0yaDJ6bTAtNHYyaC0ydi0yaDJ6bS0yLTJ2MmgtMnYtMmgyem0tMiAwdi0yaDJ2MmgtMnptMC0ydi0yaDJ2MmgtMnoiLz48L2c+PC9nPjwvc3ZnPg==')] opacity-40"></div>
